@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(sin.jpg) no-repeat;
+    background-size: cover;
+    }	
+ 
+ 
+ 
+ #mydiv1{
+					position: absolute;
+					top:50%;
+					left:50%;
+					width:30em;
+				    margin-top: -9em;
+				    margin-left: -15em;
+				    border:5px solid #ccc;
+					height:18em;
+					background-color:#f3f3f3;
+					
+
+	}
+ #mydiv1 h1{
+        text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    }
+ #wrapper{
+    max-width: 960x;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5px;
+    border:5px solid grey;
+}
+header{
+    background-color: silver;
+    height: 150px;
+    padding: 4px;
+    
+}
+
+header h1{
+        text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    }
+    
+    header h2{
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+   }
+	.btn{
+            color: black;
+            background-color:aqua;
+            text-decoration: none;
+            padding: 25px 50px;
+            font-size: 20px;
+            border-radius: 10px;
+         
+            
+        }
+
+</style>
+
+</head>
+<body>
+
+	<div id="wrapper">
+        <header>
+            <h1>Population Census</h1>
+            <h2>Bhartiya Janganna</h2>
+           <h3 align="right"><a href="index.html" role="button" class="btn">Log Out</a></h3>
+        </header>
+	<center>
+	<div id="mydiv1">
+					<u><i><h1 style="color: green">Remove Employee</h1></i></u>
+	<form method="get" action="rem_emp">
+				<br>
+				<br>
+				<br>
+				Enter The Username:<input type="text" name="uname" placeholder="Username" required>
+				<br>
+				<br>
+				<br>
+			<h1><button>Remove Record</button></h1>
+			
+	</center>
+</body>
+</html>

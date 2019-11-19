@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	
+	
+	body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(burr3.jpg) no-repeat;
+    background-size: cover;
+    
+}
+	
+	.btn{
+            color: black;
+            background-color: #59d5d8;
+            text-decoration: none;
+            padding: 25px 50px;
+            font-size: 20px;
+            border-radius: 10px;
+            
+        }
+	
+	#mydiv{
+					position: absolute;
+					top:50%;
+					left:50%;
+					width:30em;
+				    margin-top: -9em;
+				    margin-left: -15em;
+				    border:1px solid #ccc;
+					height:33em;
+					background-color:#f3f3f3;
+					border-radius:10px;
+	}
+</style>
+
+
+
+</head>
+<body>
+	<center>
+		<br>
+		<br>
+		<br>
+		<br>
+			<h3 align="right"><a href="index.html" role="button" class="btn">Log Out</a></h3>
+		
+		<h1 style="color: green">New Employee Registration</h1>
+		<div id="mydiv">
+		<form method="get" action="emp_reg">
+		
+		<br>
+				<br>
+				&nbsp &nbsp &nbsp &nbsp  &nbspFirst Name &nbsp &nbsp <input type="text" name="first_name" required placeholder="First Name">
+				<br>
+				<br>
+				&nbsp &nbsp &nbsp &nbsp  &nbspLast Name &nbsp &nbsp <input type="text" name="last_name" required placeholder="Last Name">
+				<br>
+				<br>
+				 &nbsp Mobile No &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="tel" pattern="^\d{3}\d{3}\d{4}$" name="mob_no" placeholder="Mobile Number" required> 
+				<br>
+				<br>
+				&nbsp &nbsp &nbsp  E-mail Id &nbsp &nbsp &nbsp &nbsp &nbsp<input type="email" name="user_email" required placeholder="E-Mail">
+				<br>
+				<br>
+                <!-- &nbsp &nbsp &nbsp &nbsp  &nbspBithDate: &nbsp &nbsp&nbsp &nbsp <input type="date" name="birth_date" required>
+			<br>
+			<br>
+			-->
+			&nbsp &nbsp &nbsp &nbsp  &nbspBirthplace: &nbsp &nbsp &nbsp<input type="text" name="birth_place" required placeholder="Birth Place">
+			<br>
+			<br>
+				&nbsp&nbsp&nbsp&nbsp &nbspAddress&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp<input type="text" name="address" placeholder="Address" required>
+				<br>
+				<br>
+                <!--  &nbsp &nbsp &nbsp &nbsp  &nbspGender: &nbsp &nbsp&nbsp &nbsp <input type="radio" name="gender" required>Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+                -->
+			<br>
+			<br>
+                &nbsp &nbsp &nbsp &nbsp  &nbspNationality &nbsp &nbsp&nbsp &nbsp <input type="text" name="nationality" required placeholder="Nationaliy">
+                <br>
+			<br>
+                &nbsp &nbsp &nbsp &nbsp  &nbspDesignation &nbsp &nbsp&nbsp &nbsp <input type="text" name="designation" required placeholder="Designation">
+                <br>
+			<br>
+			
+			<h1>*Create Login*</h1>
+				Username:<input type="text" name="emp_username" required placeholder="Username">
+				<br>
+				<br>
+				Password:<input type="text" name="emp_password" pattern=".{6,}" required placeholder="Password">
+				<br>
+				<br>
+                
+				<input type="submit" name="submit" value="submit">
+                <input type="Reset" name="Reset" value="Reset">
+		<br>
+			<br>
+		<br>
+			<br>
+			<br>
+			<br>	
+		</form>
+		</div>
+	</center>
+</body>
+</html>

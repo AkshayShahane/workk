@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+	
+	
+	body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(pic12.jfif) no-repeat;
+    background-size: cover;
+    }
+    
+    
+    #wrapper{
+    max-width: 800x;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border: 3px solid grey;
+}
+header{
+    background-color: #59d5d8;
+    height: 150px;
+    padding: 4px;
+    
+}
+
+header h1{
+        text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    }
+    
+    header h2{
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+}
+    
+    
+    #wrap{
+        width: 485px;
+       
+       
+    }	
+    .left{
+        width: 50%;
+        background-color:#f3f3f3;
+       transform: translate(-30%,-30%)
+        float: left;
+        position: absolute;
+					top:50%;
+					left:20%;
+					width:30em;
+				    margin-top: -9em;
+				    margin-left: -10em;
+				    border:1px solid #ccc;
+					height:32em;
+                    opacity: 0.8;
+                    
+    }	
+    .right{
+        width: 50%;
+       background-color:#f3f3f3;
+        position: absolute;
+					top:50%;
+					left:50%;
+					width:30em;
+				    margin-top: -9em;
+				    margin-left: -5em;
+				    border:1px solid #ccc;
+					height:32em;
+        float: right;
+          opacity: 0.8;
+    }
+	
+    
+    h1{
+        text-align: center;
+    }
+	
+	
+</style>
+</head>
+<body>
+				<div id="wrapper">
+				        <header>
+				            <h1>Population Census</h1>
+				            <h2>Bhartiya Janganna</h2>
+				           
+				        </header>
+				    </div>
+	<center>
+	<div id="mydiv">
+	<form method="get" action="user_reg">
+		<div id="wrap">
+        <div class="left">
+            <h1 style="color: green"; >General Details</h1>
+                &nbsp;&nbsp;&nbsp;&nbsp;Serial Number&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="serial_no" required placeholder="Serial Number"><br><br><br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;Name Of The<br>&nbsp;&nbsp;&nbsp;&nbsp;Person&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="sname" pattern="[A-Za-z].{3,}" required placeholder="Name"><br><br><br>
+		 
+		 
+		  &nbsp;&nbsp;&nbsp;&nbsp;Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="age" placeholder="Age" required><br><br><br>
+		 
+		  &nbsp;&nbsp;&nbsp;&nbsp;Religion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="religion" required placeholder="Religion"><br><br><br>
+		  
+		  
+		  &nbsp;&nbsp;&nbsp;&nbsp;Mother Tongue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="mother_t" required placeholder="Mother Tongue"><br><br><br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;Other Language<br>&nbsp;&nbsp;&nbsp;&nbsp;known&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="o_lang" required placeholder="Other Language"><br><br><br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;Literacy status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="literacy" required placeholder="Literacy Status"><br><br><br>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+         <div class="right">
+             <h1 style="color: green"; >Birth Details</h1>
+                 &nbsp;&nbsp;&nbsp;Country Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="c_name" required placeholder="Country Name"><br>
+		   <br><br><br>
+		  &nbsp;&nbsp;&nbsp;District &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="district" required placeholder="District"><br><br><br>
+		  &nbsp;&nbsp;&nbsp;Village/Town &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="village" required placeholder="Village"><br><br><br>
+		  &nbsp;&nbsp;&nbsp;Aadhar Card Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="aadhar_no" pattern="^\d{4}\d{4}\d{4}$"  required placeholder="Aadhar No"><br><br><br>
+             <hr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br>
+    <br>
+    <br>
+    <br><br>
+             <center><input type="submit" name="submit" value="submit"></center>
+        </div>
+        
+</div>
+        
+    
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <br>
+        </form>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <br>
+</body>
+</html>

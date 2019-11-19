@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+    body{
+    font-family: 'Arial',sans-serif;
+    background-color: #f3f3f3;
+    
+}
+
+#wrapper{
+    max-width: 960x;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 9px;
+    
+}
+header{
+    background-color: #59d5d8;
+    height: 150px;
+    padding: 4px;
+    
+}
+
+header h1{
+        text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    
+}
+
+header h2{
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+    
+}
+.main_menu{
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #818181;
+    
+}
+ul.main_menu{
+    margin-top: 15px;
+    
+}
+.main_menu li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    
+}
+.main_menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    font-variant: small-caps;
+}
+.main_menu a:hover{
+    color: #59d5d8;
+    
+}
+.container {
+              position: relative;
+              width: 25%;
+            float:left;
+}
+.container1 {
+              position: relative;
+              width: 25%;
+            
+}
+.container2 {
+              position: relative;
+              width: 25%;
+            float:right;
+            transform: translate(-10%,-100%)
+}
+
+.image {
+          display: block;
+          width: 100%;
+          height: auto;
+    
+}
+
+.overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .3s ease;
+          background-color:black;
+    
+        
+}
+.overlay1 {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .3s ease;
+          background-color:black;
+}
+.overlay2 {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .3s ease;
+          background-color:black;
+}
+.container:hover .overlay {
+  
+                opacity: 0.5;
+}
+.container1:hover .overlay1 {
+  
+                opacity: 0.5;
+}
+
+.container2:hover .overlay2 {
+  
+                opacity: 0.5;
+}
+    
+.text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 30%;
+          left: 30%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+         padding-left: 50px;
+}
+
+    .p{
+         text-align: center;
+    }
+    
+.footer {
+   
+   width: 100%;
+   background-color: #818181;
+   color: white;
+    padding: 45px;
+   margin-top: 310px;
+}
+</style>
+</head>
+<body>
+	<div id="wrapper">
+        <header>
+            <h1>Population Census</h1>
+            <h2>Bhartiya Janganna</h2>
+            
+        </header>
+        <nav>
+            <ul class="main_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin_login.html">Admin Portal</a></li>
+            <li><a href="employee_login.html">Employee Login</a></li>
+                <li><a href="instruction.html">User Registration</a></li>
+                <li><a href="emp_remove.html">Suspend Employee</a></li>
+                <li><a href="2011.html">2011 Survey Report</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        
+        </nav>
+        
+    </div>
+    <center>
+        <img src="census.png">
+            </center>
+            <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    <center>
+    <div class="container">
+                <img src="man.svg" width="350px" height="350px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div class="overlay">
+                <div class="text">Population, when unchecked,increases in a geometrical ratio.<br>- Thomas Malthus</div> 
+               </div>
+</div>
+            <div class="container1">
+                        <img src="man1.svg"  width="350px" height="350px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="overlay1">
+                <div class="text">Child labor perpetuates poverty, unemployment, illiteracy, population growth, and other social problems.<br>&nbsp;&nbsp;-Kailash Satyarth</div> 
+               </div>
+                </div>
+        <div class="container2">
+                <img src="man2.svg" width="350px" height="350px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div class="overlay2">
+                <div class="text">A finite world can support only a finite population; therefore, population growth must eventually equal zero.
+-Garrett Hardin</div> 
+               </div>
+</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       <font face="Forte"> <h1>"Birth Control Is The Blessing That Will Save The World."</h1>
+        <h1>&nbsp;&nbsp;&nbsp;"Overpopulation Leads To Frustration"</h1></font>
+      </center>  
+    <div  class="footer">
+            <center>
+            All Rights Reserved. 
+            </center>
+    </div>
+         
+</body>
+</html>
